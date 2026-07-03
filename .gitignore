@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+.env.*
+config/.env
+config/.env.*
+
+# Google Cloud credentials
+credentials.json
+*credentials*.json
+config/credentials.json
+config/*credentials*.json
+
+# Local extracted data
+data/weather_data.json
+
+# Python
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
