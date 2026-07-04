@@ -144,19 +144,6 @@ notebooks/analysis_data.ipynb
 
 Esse notebook pode ser usado para inspecionar os dados coletados, entender a estrutura das colunas e validar as transformações realizadas.
 
-## Status do Projeto
-
-Projeto em desenvolvimento.
-
-Próximas melhorias planejadas:
-
-- Adicionar orquestração com Apache Airflow
-- Definir schema fixo no BigQuery
-- Adicionar tratamento de erros mais detalhado
-- Criar testes automatizados
-- Implementar logs estruturados
-- Containerizar a aplicação com Docker
-
 ## Aprendizados
 
 Durante o desenvolvimento deste projeto, foram praticados conceitos importantes de Engenharia de Dados, como:
