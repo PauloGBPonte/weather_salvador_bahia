@@ -1,13 +1,15 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.pyo
 build/
 dist/
 wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+venv/
 
 # Environment variables
 .env
@@ -21,13 +23,14 @@ credentials.json
 config/credentials.json
 config/*credentials*.json
 
-# Local extracted data
-data/weather_data.json
+# Airflow
+logs/
+config/airflow.cfg
 
-# Python
-*.py[cod]
-.venv/
-venv/
+# Data files (arquivos temporários do pipeline)
+data/
+*.parquet
+*.json
 
 # Jupyter
 .ipynb_checkpoints/
